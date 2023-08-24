@@ -7,9 +7,9 @@
 //     origin: '*',
 //   }
 // });
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
-const io = require('socket.io')(port, {
+const io = require('socket.io')(3000, {
   cors: {
     origin: '*',
     methods: ['GET', 'POST'],
