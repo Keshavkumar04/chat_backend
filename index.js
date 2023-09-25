@@ -7,9 +7,9 @@
 //     origin: '*',
 //   }
 // });
-// const port = process.env.PORT || 3000;
+ const port = "https://chat-backend-g1ev.onrender.com";
 
-const io = require('socket.io')(https://chat-backend-g1ev.onrender.com, {
+const io = require('socket.io')(port, {
   cors: {
     origin: '*',
     methods: ['GET', 'POST'],
